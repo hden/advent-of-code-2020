@@ -1,0 +1,8 @@
+{:paths ["src" "test"]
+
+ :deps
+ {org.clojure/math.combinatorics {:mvn/version "0.1.6"}}
+
+ :aliases
+ {:1-1 {:exec-fn day1/part-1}
+  :1-2 {:exec-fn day1/part-2}}}
