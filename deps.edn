@@ -5,4 +5,6 @@
 
  :aliases
  {:1-1 {:exec-fn day1/part-1}
-  :1-2 {:exec-fn day1/part-2}}}
+  :1-2 {:exec-fn day1/part-2}
+  :2-1 {:exec-fn day2/part-1}
+  :2-2 {:exec-fn day2/part-2}}}

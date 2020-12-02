@@ -1,15 +1,13 @@
 (ns day1
-  (:require [clojure.java.io :as io]
-            [clojure.string :as string]
+  (:require [util]
             [clojure.math.combinatorics :refer [combinations]]))
 
 (def ^:const target 2020)
 
 (def inputs
-  (->> (slurp "inputs/day1.txt")
-       (string/split-lines)
-       (map #(Integer/parseInt %))
-       (apply sorted-set)))
+  (util/into (sorted-set)
+             (map #(Integer/parseInt %))
+             "inputs/day1.txt"))
 
 ;; Part I - 997899
 (defn part-1 [& args]
