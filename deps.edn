@@ -5,6 +5,7 @@
   org.clojure/test.check {:mvn/version "0.9.0"}
   org.clojure/alpha.spec {:git/url "https://github.com/clojure/spec-alpha2.git"
                           :sha     "cd07a40c4ee720614a18429da4b09a6c5d8fe979"}
+  cuid/cuid {:mvn/version "0.1.2"}
   datascript/datascript {:mvn/version "1.0.1"}
   persistent-sorted-set/persistent-sorted-set {:mvn/version "0.1.2"}}
 
@@ -18,4 +19,6 @@
   :4-1 {:exec-fn day4/part-1}
   :4-2 {:exec-fn day4/part-2}
   :5-1 {:exec-fn day5/part-1}
-  :5-2 {:exec-fn day5/part-2}}}
+  :5-2 {:exec-fn day5/part-2}
+  :6-1 {:exec-fn day6/part-1}
+  :6-2 {:exec-fn day6/part-2}}}
