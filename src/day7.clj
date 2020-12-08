@@ -1,8 +1,7 @@
 (ns day7
   (:require [util]
             [clojure.string :as string]
-            [datascript.core :as d]
-            [clojure.math.combinatorics :refer [combinations]]))
+            [datascript.core :as d]))
 
 (def schema
   {:bag/color {:db/unique :db.unique/identity
@@ -55,9 +54,6 @@
                        #{[my-color]}
                        (range))]
     (println (count (disj colors [my-color])))))
-
-(defn childs [db eid])
-
 
 (defn part-2 [& args]
   (let [db @conn
