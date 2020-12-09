@@ -19,7 +19,7 @@
 (def inputs
   (util/into []
              (map-indexed parse)
-             "inputs/day8.txt"))
+             "inputs/day08.txt"))
 
 (def ^:const init {:position 0
                    :accumulator 0

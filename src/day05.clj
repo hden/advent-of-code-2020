@@ -43,7 +43,7 @@
                       {:s s
                        :row row
                        :col col})))
-             "inputs/day5.txt"))
+             "inputs/day05.txt"))
 
 (def decode-rows (into {}
                        (map (fn [x]

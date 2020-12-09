@@ -13,7 +13,7 @@
                        :word word
                        :password password
                        :stats (group-by identity (string/split password #""))})))
-             "inputs/day2.txt"))
+             "inputs/day02.txt"))
 
 ;; Part I
 (defn part-1 [& args]

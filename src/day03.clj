@@ -9,7 +9,7 @@
              (map (fn [s]
                     (let [row (string/split s #"")]
                       (into [] (flatten (repeat 100 row))))))
-             "inputs/day3.txt"))
+             "inputs/day03.txt"))
 
 ;; Part I
 (defn part-1 [& args]

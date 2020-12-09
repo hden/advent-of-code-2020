@@ -39,7 +39,7 @@
                               (let [[k v] (string/split s #":")]
                                 [(keyword k) v])))
                        tuples))))
-        (string/split (slurp "inputs/day4.txt")
+        (string/split (slurp "inputs/day04.txt")
                       #"\n\n")))
 
 (defn create-conn [tx-data]

@@ -26,7 +26,7 @@
 (def inputs
   (util/into []
              (mapcat parse)
-             "inputs/day7.txt"))
+             "inputs/day07.txt"))
 
 (defn create-conn [tx-data]
   (let [conn (d/create-conn schema)]

@@ -21,7 +21,7 @@
                                     :passenger-id passenger-id
                                     :questions    questions})))
                           row))))
-        (string/split (slurp "inputs/day6.txt")
+        (string/split (slurp "inputs/day06.txt")
                       #"\n\n")))
 
 (defn create-conn [tx-data]

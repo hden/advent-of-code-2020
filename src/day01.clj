@@ -7,7 +7,7 @@
 (def inputs
   (util/into (sorted-set)
              (map #(Integer/parseInt %))
-             "inputs/day1.txt"))
+             "inputs/day01.txt"))
 
 ;; Part I - 997899
 (defn part-1 [& args]
