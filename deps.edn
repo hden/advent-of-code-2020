@@ -25,4 +25,6 @@
   :7-1 {:exec-fn day07/part-1}
   :7-2 {:exec-fn day07/part-2}
   :8-1 {:exec-fn day08/part-1}
-  :8-2 {:exec-fn day08/part-2}}}
+  :8-2 {:exec-fn day08/part-2}
+  :9-1 {:exec-fn day09/part-1}
+  :9-2 {:exec-fn day09/part-2}}}
