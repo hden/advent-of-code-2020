@@ -1,4 +1,4 @@
-(ns day5
+(ns day05
   (:refer-clojure :exclude [set])
   (:require [util]
             [clojure.math.combinatorics :refer [cartesian-product]]

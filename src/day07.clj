@@ -1,4 +1,4 @@
-(ns day7
+(ns day07
   (:require [util]
             [clojure.string :as string]
             [datascript.core :as d]))

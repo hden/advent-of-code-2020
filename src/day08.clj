@@ -1,4 +1,4 @@
-(ns day8
+(ns day08
   (:require [util]
             [clojure.string :as string]))
 

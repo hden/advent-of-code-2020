@@ -1,4 +1,4 @@
-(ns day1
+(ns day01
   (:require [util]
             [clojure.math.combinatorics :refer [combinations]]))
 

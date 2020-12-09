@@ -1,4 +1,4 @@
-(ns day2
+(ns day02
   (:refer-clojure :exclude [nth])
   (:require [util]
             [clojure.string :as string]
