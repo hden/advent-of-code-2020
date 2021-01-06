@@ -6,7 +6,7 @@
   org.clojure/alpha.spec {:git/url "https://github.com/clojure/spec-alpha2.git"
                           :sha     "cd07a40c4ee720614a18429da4b09a6c5d8fe979"}
   cuid/cuid {:mvn/version "0.1.2"}
-  datascript/datascript {:mvn/version "1.0.1"}
+  datascript/datascript {:mvn/version "1.0.3-aot1.9"}
   persistent-sorted-set/persistent-sorted-set {:mvn/version "0.1.2"}}
 
  :aliases
